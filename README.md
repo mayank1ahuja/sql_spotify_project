@@ -2,7 +2,7 @@
 
 
 
-![Spotify Logo]
+![Spotify Logo](https://github.com/mayank1ahuja/sql_spotify_project/blob/d888ad3d49086d19e5f9ee3df3157de415d4e38b/spotify_logo.jpg)
 
 ## 📄 Overview
 This repository presents a methodical, reproducible exercise in applied SQL using a Spotify dataset. It marries meticulous schema design with a curated progression of analytical problems and a compact, evidence-backed optimization vignette. The aim is twofold: to show practical SQL skills — from table design (DDL) to advanced queries (window functions and CTEs) — and to provide concrete deliverables (schema DDL and a curated query catalogue).
@@ -13,8 +13,8 @@ This repository presents a methodical, reproducible exercise in applied SQL usin
 3. The result is a compact dossier that signals both technical competence and thoughtful engineering judgment.
 
 ## 📦 Dataset
-*Source*: Kaggle — Netflix Dataset
-*Download*: https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
+- *Source*: Kaggle — Netflix Dataset
+- *Download*: https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
 
 ## 🗂️ Canonical Schema
 The primary table coalesces audio descriptors, engagement data, and provenance flags — key information for descriptive analytics and performance-oriented queries.
@@ -64,7 +64,7 @@ Prior to delving into SQL, a good understanding of the dataset is essential. It 
 ## 2. Querying the Data🧑🏻‍💻
 After the data is inserted, various SQL queries can be written to explore and analyze the data. Queries are categorized into **easy**, **medium**, and **advanced** levels to elevate the challenge level of SQL practice.
 
-### Easy Queries
+### 📑 Part 1: Easy Queries
 1. Retrieve the names of all tracks that have more than 1 billion streams.
 ```sql
 SELECT artist,
@@ -107,7 +107,7 @@ FROM spotify
 GROUP BY 1;
 ```
 
-### Medium Queries
+### 📑 Part 2: Medium Difficulty Queries
 6. Calculate the average danceability of tracks in each album.
 ```sql
 SELECT album, 
@@ -152,7 +152,7 @@ FROM spotify
 WHERE most_playedon = 'Spotify'; 
 ```
 
-### Advanced Queries
+### 📑 Part 3: Advanced Queries
 11. Find the top 3 most-viewed tracks for each artist using window functions.
 12. Write a query to find tracks where the liveness score is above the average.
 13. Use a `WITH` clause to calculate the difference between the highest and lowest energy values for tracks in each album.
@@ -172,5 +172,5 @@ WHERE most_playedon = 'Spotify';
 5. Explore query optimization techniques for large datasets.
 
 
-# =Note on Completeness
+# Note on Completeness
 This project is still in progress. I am plan to learn and plan to complete it by solving the above advanced problems and exploring query optimization with regards to this project.🚧
