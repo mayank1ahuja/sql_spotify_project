@@ -185,4 +185,4 @@ WHERE most_playedon = 'Spotify';
 
 
 # Note on Completeness
-This project is still in progress. I am plan to learn and plan to complete it by solving the above advanced problems and exploring query optimization with regards to this project.🚧
+This project is still in progress. I plan to learn and complete it by solving the above advanced problems and exploring query optimization with regards to this project.🚧
