@@ -7,16 +7,19 @@
 ## 📄 Overview
 This repository presents a methodical, reproducible exercise in applied SQL using a Spotify dataset. It marries meticulous schema design with a curated progression of analytical problems and a compact, evidence-backed optimization vignette. The aim is twofold: to show practical SQL skills — from table design (DDL) to advanced queries (window functions and CTEs) — and to provide concrete deliverables (schema DDL and a curated query catalogue).
 
+
 ## 📌 Key Points
 1. This project presents a denormalized real-world table and a clear migration path toward normalization, thereby illustrating schema reasoning and redundancy mitigation.
 2. It showcases problem-solving breadth — from straightforward aggregation to advanced analytical patterns.
 3. The result is a compact dossier that signals both technical competence and thoughtful engineering judgment.
+
 
 ## 📦 Dataset
 - *Source*: Kaggle — Netflix Dataset
 - *Download*: https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
 
 ![](https://github.com/mayank1ahuja/sql_spotify_project/blob/8efd3810a0fd61ade3e2e8be652a3b06d14fdadd/kaggle%20dataset.png)
+
 
 ## 🗂️ Canonical Schema
 The primary table coalesces audio descriptors, engagement data, and provenance flags — key information for descriptive analytics and performance-oriented queries.
@@ -53,6 +56,8 @@ CREATE TABLE spotify
 
 This schema balances domain-relevant audio features (danceability, energy, tempo), engagement signals (views, likes, comments, streams), and boolean indicators (licensed, official_video) to enable both granular and aggregated inquiries.
 
+
+
 # 🧩 Project Steps
 
 ## 1. Data Exploration📊
@@ -62,9 +67,11 @@ Prior to delving into SQL, a good understanding of the dataset is essential. It 
 - `Album`: The album to which the track belongs.
 - `Album_type`: The type of album (e.g., single or album).
 - Various metrics such as `danceability`, `energy`, `loudness`, `tempo`, and more.
+  
 
 ## 2. Querying the Data🧑🏻‍💻
 After the data is inserted, various SQL queries can be written to explore and analyze the data. Queries are categorized into **easy**, **medium**, and **advanced** levels to elevate the challenge level of SQL practice.
+
 
 ### 📑 Part 1: Easy Queries
 1. Retrieve the names of all tracks that have more than 1 billion streams.
@@ -108,6 +115,7 @@ SELECT artist,
 FROM spotify
 GROUP BY 1;
 ```
+
 
 ### 📑 Part 2: Medium Difficulty Queries
 6. Calculate the average danceability of tracks in each album.
@@ -154,6 +162,7 @@ FROM spotify
 WHERE most_playedon = 'Spotify'; 
 ```
 
+
 ### 📑 Part 3: Advanced Queries
 11. Find the top 3 most-viewed tracks for each artist using window functions.
 12. Write a query to find tracks where the liveness score is above the average.
@@ -165,6 +174,7 @@ WHERE most_playedon = 'Spotify';
 ## 🛠️ Technology Stack
 - **Database**: PostgreSQL
 - **Tools**: pgAdmin 4, PostgreSQL
+
 
 ## ❓ How to Run the Project
 1. Install PostgreSQL and pgAdmin (if not already installed).
