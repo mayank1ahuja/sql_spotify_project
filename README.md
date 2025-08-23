@@ -15,6 +15,7 @@ This repository presents a methodical, reproducible exercise in applied SQL usin
 ## 📦 Dataset
 - *Source*: Kaggle — Netflix Dataset
 - *Download*: https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
+
 ![](https://github.com/mayank1ahuja/sql_spotify_project/blob/8efd3810a0fd61ade3e2e8be652a3b06d14fdadd/kaggle%20dataset.png)
 
 ## 🗂️ Canonical Schema
