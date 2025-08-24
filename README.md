@@ -1,4 +1,3 @@
-# 🎧✨ Spotify SQL Project ✨🎧 
 <h1 align="center">🎧✨ Spotify SQL Project ✨🎧 </h1>
 
 
