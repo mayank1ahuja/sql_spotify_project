@@ -1,5 +1,5 @@
-# 							🎧✨ Spotify SQL Project ✨🎧 
-
+# 🎧✨ Spotify SQL Project ✨🎧 
+<h1 align="center">🎧✨ Spotify SQL Project ✨🎧 </h1>
 
 
 ![Spotify Logo](https://github.com/mayank1ahuja/sql_spotify_project/blob/d888ad3d49086d19e5f9ee3df3157de415d4e38b/spotify_logo.jpg)
