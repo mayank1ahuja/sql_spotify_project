@@ -183,5 +183,5 @@ WHERE most_playedon = 'Spotify';
 5. Explore query optimization techniques for large datasets.
 
 
-# Note on Completeness
-This project is still in progress. I plan to learn and complete it by solving the above advanced problems and exploring query optimization with regards to this project.🚧
+# 🚧 Note on Completeness
+This project is still in progress. I plan to learn and complete it by solving the above advanced problems and exploring query optimization with regards to this project.
